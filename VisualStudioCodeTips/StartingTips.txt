@@ -1,0 +1,5 @@
+1) Starting off using Git cmd
+-Use code in cmd to open visual studio code
+-Install npm packages for cloned repositiores using npm install while inside the repositories directory
+-git --version checks the verion
+-node --version checks nodejs verison
