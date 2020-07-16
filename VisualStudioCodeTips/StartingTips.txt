@@ -3,3 +3,111 @@
 -Install npm packages for cloned repositiores using npm install while inside the repositories directory
 -git --version checks the verion
 -node --version checks nodejs verison
+
+1a) Running projects
+-in git cmd type cd then drag the folder icon to the cmd line.
+-While in the right directory type code . to open code
+-While in git cmd type npm install
+--I've been having to do npm audit fix to run these files with less vulnerabilities.
+
+1b) Running the html
+-While in Visual studio code terminal
+--npm run start
+
+2) What did npm install do?
+-It looked at the package.json and looked for devDependencies and found "lite-server" and installed it.
+
+3) To see this tutorial's webpage we need to use the lite server
+-Use control + shift + ` (back tick)
+--This will open the built in terminal in visual studio code
+---For saftey reason always run NPM INSTALLS outside of visual studio code. By using git cmd or just cmd prompt
+--While in terminal type npm run start
+---This will start up lite server and run a url of the website.
+
+4) While using Javascript it's best practices to have your scripts in a seperate file.
+
+4a) <script> </script>
+-<script src="./filename.js"></script>
+--This is telling us where our file is in the directory
+--'.' is the current directory '/' is this file or folder 'File name.js' is the script
+
+5) Debugging
+-You can use console.log("Message");
+--This is poor debugging and using break points is superior
+
+6) Comments
+- // Single line comment
+- /* Multi-Line comment */
+
+7) Variables
+-Variables change all the time
+-Best practice to have the variable be defined
+--let price = 99.99;
+-changing variable
+--price = 29.99;
+
+8)Constants
+-const
+
+9) typeof
+-Tells you what the variable's type is string, number
+
+10) Math
+-We can do price = price + 1;
+
+11) Precision
+-Rough topic, you can put a + infront of the equation in paranthesis
+--then put .tofixed(2)
+
+12) Objects
+-let person = {
+ firstName: 'John',
+ lastName: 'Adams'
+ };
+ 
+ 13) If Statements
+ if (xx === xx) {
+    then;
+ }
+ 
+ 14) if else
+ if (price > 10) {
+    showMessage(true);
+ }
+ else {
+  showMessage(false);
+ }
+ 
+  if (price > 10) {
+    showMessage(true);
+ }
+ else if (price < 5 {
+  showMessage('Less than five');
+ }
+ 
+ 15) for (i = 0; i < 9; i++) {
+ console.log(i);
+ }
+ 
+ 16) functions
+ - function functionName(parameter) {
+ stuff
+ return xxx
+ }
+ 
+ calling function let secretcode = getSecretCode(2);
+ 
+ 17) Objects
+ - let person = {
+    name: "John",
+    age: 32,
+    partTime: false
+    };
+    
+    -Getting objects properties is person.age
+    like console.log(person.age)
+    
+  18) Arrays
+  - let values = ['a', 'b', 'c'];
+  
+  console.log(values[0]);
